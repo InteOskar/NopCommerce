@@ -4,11 +4,16 @@
 @inject IWorkContext workContext
 @inject IThemeContext themeContext
 @inject IUserAgentHelper userAgentHelper
+
+
 @{
     var supportRtl = (await workContext.GetWorkingLanguageAsync()).Rtl;
     var themeName = await themeContext.GetWorkingThemeNameAsync();
 
     //add main CSS file
+    Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Header.css");
+    Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Page.css");
+    Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/Footer.css");
     if (supportRtl)
     {
         Html.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.rtl.css");

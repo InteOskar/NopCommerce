@@ -1,4 +1,4 @@
-
+/*@import Url("Header.css");*/
 
 /*********** CSS RESET **********/
 
@@ -74,7 +74,6 @@ script {
 body {
 max-width: 100%;
 overflow-x: hidden;
-background-image: linear-gradient(to top, #151515, #212121, #2d2d2d, #3a3a3a, #484848);
 font: normal 14px Arial, Helvetica, sans-serif;
 color: #fff;
 }
@@ -103,7 +102,7 @@ input[type="tel"],
 input[type="password"],
 textarea, select {
   height: 36px; /*safari padding fix*/
-  border: 1px solid #00c896;
+  /*border: 1px solid #00c896;*/
   padding: 8px;
   vertical-align: middle;
   background-color: #151515;
@@ -7944,7 +7943,7 @@ font-size: 15px;
 
   .search-box {
     display: table-cell;
-    text-align: right;
+    text-align: center;
     vertical-align: middle;
   }
 
@@ -7983,7 +7982,7 @@ font-size: 15px;
 
   .header-menu > ul > li {
     display: inline-block;
-    border-left: 1px solid #ddd;
+/*    border-left: 1px solid #ddd;*/
     padding: 0 15px;
     vertical-align: middle;
   }

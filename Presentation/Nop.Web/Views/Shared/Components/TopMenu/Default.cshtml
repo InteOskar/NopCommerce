@@ -44,7 +44,7 @@
     }
 }
 
-<ul class="top-menu notmobile">
+@*<ul class="top-menu notmobile">
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMenuBefore })
     @if (Model.DisplayHomepageMenuItem)
     {
@@ -92,7 +92,7 @@
         <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
     }
     @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMenuAfter })
-</ul>
+</ul>*@
 @{
     var rootCategoriesResponsive = Model.Categories.ToList();
     //name it "Categories" if we have only categories. Otherwise, "Menu"
