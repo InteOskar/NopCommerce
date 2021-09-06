@@ -1,0 +1,36 @@
+﻿body {
+    scrollbar-track-color: transparent;
+}
+
+.master-wrapper-content{
+    margin:0;
+    width: 100%;
+}
+
+.page {
+    background-color: #ebebeb;
+}
+
+.page-front{
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+}
+
+.sale-message{
+    padding: 50px;
+    color: black;
+    font-size: 75px;
+}
+
+.look-one {
+    flex: 1;
+    background-color: #edc79f;
+    text-align: center;
+}
+
+.look-two {
+    flex: 6;
+    background-color: #fff;
+    position: relative;
+}

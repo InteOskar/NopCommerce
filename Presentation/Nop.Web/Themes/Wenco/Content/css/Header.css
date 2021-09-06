@@ -1,0 +1,130 @@
+﻿body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #edc79f;
+}
+
+.header {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.topic-block a,
+.topic-page a,
+.product-grid .title,
+.footer-block .title,
+.footer-powered-by a, .item-box .product-title {
+    color: black;
+}
+
+.header-menu{
+    margin: 0px;
+    border-bottom: none;
+    padding: 0px;
+}
+
+.header-links{
+    color: black;
+}
+
+.header-lower {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.header-links-wrapper{
+    padding: 0;
+}
+
+.topic-block-title,
+.product-grid .title,
+.footer-upper {
+    border-bottom: 1px solid #444444;
+}
+
+.header-logo{
+    width: 30%;
+}
+
+.header-menu > ul > li > a {
+    display: block;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #444444;
+    cursor: pointer;
+    border-bottom: 1px solid #21c7df;
+}
+
+.header-menu{
+    width: 100%;
+}
+
+#topcartlink{
+    border-bottom: none;
+}
+
+.search-box
+.search-box-button {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #edc79f;
+    color: black;
+    cursor: pointer;
+}
+
+.search-box-text,
+ui-autocomplete-input {
+    border: none;
+    background-color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea,
+select {
+    height: 36px;
+    padding: 8px;
+    vertical-align: middle;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    color: black;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.search-box .search-box-button:hover,
+.search-box .search-box-button:focus {
+    background-color: #c7a785;
+}
+
+.sale{
+    color: #ff6c6c;
+}
+
