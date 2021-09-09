@@ -48,6 +48,8 @@
     <Content Remove="Themes\Wenco\Content\css\Header.css" />
     <Content Remove="Themes\Wenco\Content\css\Page.css" />
     <Content Remove="Themes\Wenco\Content\images\bakgrunden.jpg" />
+    <Content Remove="Themes\Wenco\Content\images\Banner.PNG" />
+    <Content Remove="Themes\Wenco\Content\images\Iphone.png" />
     <None Remove="Themes\Wenco\Content\css\print.css" />
     <None Remove="Themes\Wenco\Content\css\styles.css" />
     <None Remove="Themes\Wenco\Content\css\styles.rtl.css" />

@@ -26,6 +26,9 @@
         }
         <div class="master-column-wrapper">
             @RenderBody()
+            <div class="banner-img">
+                <img class="logos-banner" src="~/Themes/Wenco/Content/images/Banner.PNG" />
+            </div>
         </div>
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ContentAfter })
     </div>

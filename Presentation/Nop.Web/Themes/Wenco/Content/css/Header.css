@@ -12,8 +12,9 @@ body::-webkit-scrollbar-track{
     background-color: transparent;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background-color: #edc79f;
+    border: 1px solid #ad9174;
 }
 
 .header {
@@ -51,7 +52,7 @@ h1, h2, h3, h4, h5, h6,
 .topic-block-title,
 .product-grid .title,
 .footer-upper {
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid #ff6c6c;
 }
 
 .header-logo{
